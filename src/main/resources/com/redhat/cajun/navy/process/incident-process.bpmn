@@ -428,6 +428,9 @@ kcontext.setVariable("mission", _mission);]]></drools:script>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Init]]></drools:metaValue>
         </drools:metaData>
+        <drools:metaData name="customAsync">
+          <drools:metaValue><![CDATA[true]]></drools:metaValue>
+        </drools:metaData>
       </bpmn2:extensionElements>
       <bpmn2:incoming>_E77FF997-F866-4B5E-8E11-0AED2E4A258C</bpmn2:incoming>
       <bpmn2:outgoing>_C3E80BB7-F7A8-4610-AEFC-CDADCA7D1E05</bpmn2:outgoing>
